@@ -11,10 +11,10 @@
 		}
 		local imageSheet = graphics.newImageSheet( "images/tavisheet1a.png", options ) -- declared name of sheet with options declared as well
 		local sequenceData = {
-			{ name="heroleft", start=1, count=3, time=sT},  -- frame names that can be called within game
-			{ name="heroright", start=1, count=3, time=sT}, -- frame names that can be called within game
+			{ name="heroleft", start=4, count=3, time=sT},  -- frame names that can be called within game
+			{ name="heroright", start=4, count=3, time=sT}, -- frame names that can be called within game
 			{ name="heroup", start=7, count=3, time=sT}, -- frame names that can be called within game
-			{ name="herodown", start=4, count=3, time=sT}, -- frame names that can be called within game
+			{ name="herodown", start=1, count=3, time=sT}, -- frame names that can be called within game
 			}
 		player1 = display.newSprite( imageSheet, sequenceData, true)
 		player1.x = 0
